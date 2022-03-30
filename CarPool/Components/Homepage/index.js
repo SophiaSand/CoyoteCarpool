@@ -24,7 +24,7 @@ const Homepage = (props) => {
       />
 
       <View style={styles.buttonsContainer}>
-        <StyledButton 
+        <LongButton 
           type="primary" 
           content={"Sign In with Google"} 
           onPress={() => {
@@ -33,7 +33,7 @@ const Homepage = (props) => {
         />
           <Text style = {styles.ortitle}>OR</Text>
 
-        <StyledButton 
+        <LongButton 
           type="secondary" 
           content={"Sign Up with Google"} 
           onPress={() => {
