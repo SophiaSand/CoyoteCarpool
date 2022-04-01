@@ -1,6 +1,6 @@
 
 // Code provided by Google for their authentication process which essentially verifies if a user is signed in, allows users to sign up,
-// and allows existing users to sign in. 
+// and allows existing users to sign in. These functions are to be called when using the Sign-In with Google button on our project.
 
 public class EmailPasswordActivity extends Activity {
 
