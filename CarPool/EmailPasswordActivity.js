@@ -1,3 +1,7 @@
+
+// Code provided by Google for their authentication process which essentially verifies if a user is signed in, allows users to sign up,
+// and allows existing users to sign in. 
+
 public class EmailPasswordActivity extends Activity {
 
     private static final String TAG = "EmailPassword";
