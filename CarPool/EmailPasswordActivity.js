@@ -5,11 +5,12 @@ public class EmailPasswordActivity extends Activity {
     private FirebaseAuth mAuth;
     // [END declare_auth]
 
+    // Checks to see if the user is currently signed in.
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // [START initialize_auth]
-        // Initialize Firebase Auth
+        // Initializes FirebaseAuth instance.
         mAuth = FirebaseAuth.getInstance();
         // [END initialize_auth]
     }
