@@ -1,5 +1,9 @@
 
-// Firebase authentication using a Google ID token.
+/*
+Firebase authentication using a Google ID token.
+This requires our application's SHA-1 fingerprint which can be done through the Settings page on the Firebase console.
+Firebase Console must enable Google Sign-In method under the Authentication tab in the Firebase console.
+*/ 
 
 public class GoogleSignInActivity extends Activity {
 
