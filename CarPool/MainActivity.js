@@ -1,5 +1,6 @@
 
 // If user has signed in successfully this allows us to get their account data including display name, email, and photo.
+// Firebase Authentication on Android
 
 public void getUserProfile() {
         // [START get_user_profile]
